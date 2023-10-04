@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>손게임</title>
+    <style>
+        /* CSS 스타일링은 여기에 추가하세요. */
+    </style>
+</head>
+<body>
+    <h1>손게임</h1>
+    <video id="video" autoplay></video>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div id="targetMessage"></div> <!-- 목표 손 메시지 -->
+    <div id="currentMessage"></div> <!-- 현재 인식된 손 메시지 -->
+    <button id="startButton">게임 시작</button>
+    <script src="hand.js"></script>
+</body>
+</html>
+
